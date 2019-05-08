@@ -131,6 +131,21 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .home_container h1{
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+
+
+
+
 
 /* about_component */
 .about_component{
