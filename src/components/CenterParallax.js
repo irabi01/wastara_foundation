@@ -8,7 +8,7 @@ export class CenterParallax extends Component {
             <div className="row">
                 <div className="col-md-5">
                     <div className="volunteer_text">
-                        <h1>are you interested in our work?</h1>
+                        <h1>join the volunteer program</h1>
                     </div>
                 </div>
                 <div className="col-md-7">

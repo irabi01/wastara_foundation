@@ -6,8 +6,9 @@ import FooterComponent from './components/FooterComponent';
 import HomeComponent from './components/HomeComponent';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import Projects from './pages/Projects';
 import EventsPage from './pages/EventsPage';
+import DetailsView from './pages/DetailsView';
+import Error from './pages/Error'
 
 class App extends Component {
   render() {
@@ -19,8 +20,9 @@ class App extends Component {
             <Route path="/" exact component={HomeComponent}/>
             <Route path="/about" component = {AboutPage}/>
             <Route path="/contact" component = {ContactPage}/>
-            <Route path="/projects" component = {Projects}/>
             <Route path="/events" component = {EventsPage}/>
+            <Route path="/event-details/:eventID" component={DetailsView}/>
+            <Route component={Error}/>
           </Switch>
           <FooterComponent/>
         </div>

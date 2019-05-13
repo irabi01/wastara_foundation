@@ -19,25 +19,13 @@ export class AboutComponent extends Component {
                         <div className="about_left">
                             <h1>Welcome to wastara foundation</h1>
                             <p>
-                            Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato
+                            WASTARA FOUNDATION Is a Non Government, Non Profit Organisation with registration no..... Registered under the laws of the United Republic Of Tanzania its Head Quaters located at SINZA 'B' PALESTINA WARD-SINZA, DIVISION-MAGOMENI, UBUNGO DAR ES SALAAM.
                             </p>
-                            <div className="container">
-                                <div className="row">
-                                    <div className="col-md-6">
-                                        <i className="fa fa-list"></i>
-                                        <h2>Total Projects</h2>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <i className="fa fa-group"></i>
-                                        <h2>Total Volunteers</h2>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div className="col-md-6">
                         <div className="about_image">
-                            <img src={require("../images/img2.jpg")} class="img-fluid" alt="wastara-imgae"/>
+                            <img src={require("../images/img2.jpg")} className="img-fluid" alt="wastara-imgae"/>
                         </div>
                     </div>
                 </div>
