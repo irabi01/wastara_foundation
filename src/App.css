@@ -519,6 +519,27 @@
   color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
+
+.about_section_two .core_value_part{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  height: 100%;
+  padding: 150px 50px;
+  background: #80004b;
+}
+.about_section_two .core_value_part h1{
+  color: #fff;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+}
+.about_section_two .core_value_part p{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .about_section_two .mission_part{
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/img4.jpg");
   background-position: center;

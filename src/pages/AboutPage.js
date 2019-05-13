@@ -31,16 +31,22 @@ export class AboutPage extends Component {
         </div>
         <div className="about_section_two">
           <div className="row no-gutters">
-            <div className="col-md-6">
-              <div className="vision_part">
-                <h1>Our vision</h1>
-                <p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo</p>
+            <div className="col-md-4">
+              <div className="core_value_part">
+                <h1>Core Value</h1>
+                <p>WF is committed to the values of the accountability to the society and respect of human rights.</p>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-4">
+              <div className="vision_part">
+                <h1>Our vision</h1>
+                <p>WF is determined that Tanzania and other Countries has a future of well informed citizens especially target group who shall positively influence sustainable social, cultural and economic development.</p>
+              </div>
+            </div>
+            <div className="col-md-4">
               <div className="mission_part">
                 <h1>Our mission</h1>
-                <p>Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo</p>
+                <p>The mission of WF is to enable and equip target group with good training and advice in actively engaging against poverty, ignorance and poor health and for a good welfare.</p>
               </div>
             </div>
           </div>
